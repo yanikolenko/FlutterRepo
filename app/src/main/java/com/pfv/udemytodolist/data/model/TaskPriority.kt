@@ -1,4 +1,4 @@
-package com.pfv.udemytodolist.model
+package com.pfv.udemytodolist.data.model
 
 import androidx.compose.ui.graphics.Color
 import com.pfv.udemytodolist.ui.theme.HighPriorityColor
