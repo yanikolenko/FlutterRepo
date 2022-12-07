@@ -1,6 +1,5 @@
 package com.pfv.udemytodolist.navigation.destinations
 
-import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
 import androidx.navigation.compose.composable

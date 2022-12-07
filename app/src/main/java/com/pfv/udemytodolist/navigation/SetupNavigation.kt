@@ -1,5 +1,6 @@
 package com.pfv.udemytodolist.navigation
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -23,5 +24,9 @@ fun SetupNavigation(navController: NavHostController) {
 
         listComposable(navigateToTaskScreen = screen.task, viewModel = sharedViewModel)
         taskComposable(navigateToListScreen = screen.list)
+    }
+
+    BackHandler{
+
     }
 }
