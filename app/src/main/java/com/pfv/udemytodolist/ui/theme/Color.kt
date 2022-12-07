@@ -1,5 +1,7 @@
 package com.pfv.udemytodolist.ui.theme
 
+import androidx.compose.material.Colors
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 val Purple200 = Color(0xFFBB86FC)
@@ -11,3 +13,15 @@ val LowPriorityColor = Color(0xFF00C980)
 val MediumPriorityColor = Color(0xFFFFC114)
 val HighPriorityColor = Color(0xFFFF4646)
 val NonePriorityColor = Color(0xFFFFFFFF)
+
+val Colors.topAppBarColor: Color
+    @Composable
+    get() = if (isLight) Color.DarkGray else Color.LightGray
+
+val Colors.listItemBackgroundColour: Color
+    @Composable
+    get() = if (isLight) Color.White else Color.DarkGray
+
+val Colors.taskItemTextColor: Color
+    @Composable
+    get() = if (isLight) Color.DarkGray else Color.DarkGray

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">UdemyToDoList</string>
+    <string name="tasks">Tasks</string>
+    <string name="delete_all_action">Delete All</string>
 </resources>
