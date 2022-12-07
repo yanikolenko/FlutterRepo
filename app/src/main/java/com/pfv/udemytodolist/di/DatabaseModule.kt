@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.pfv.udemytodolist.data.ToDoDatabase
 import com.pfv.udemytodolist.util.Constants
+import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -28,4 +29,5 @@ object DatabaseModule {
     @Singleton
     @Provides
     fun provideDao(database: ToDoDatabase) = database.toDoDao()
+
 }

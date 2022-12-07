@@ -2,9 +2,12 @@ package com.pfv.udemytodolist.repository
 
 import com.pfv.udemytodolist.data.ToDoDao
 import com.pfv.udemytodolist.data.model.ToDoTask
+import com.pfv.udemytodolist.view_model.SharedViewModel
+import dagger.hilt.InstallIn
 import dagger.hilt.android.scopes.ViewModelScoped
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
+import javax.inject.Singleton
 
 @ViewModelScoped
 class ToDoRepository @Inject constructor(val toDoDao: ToDoDao) {

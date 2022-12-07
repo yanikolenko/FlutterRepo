@@ -1,6 +1,5 @@
 package com.pfv.udemytodolist.navigation
 
-import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import com.pfv.udemytodolist.util.Action
 import com.pfv.udemytodolist.util.Constants
